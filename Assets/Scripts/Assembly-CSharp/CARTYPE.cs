@@ -1,0 +1,10 @@
+public enum CARTYPE
+{
+	NORMAILCAR,
+	BLUESUV,
+	SUV,
+	SPORTSCAR,
+	TAXI,
+	POLICECAR,
+	MOTOR
+}

@@ -1,0 +1,6 @@
+public enum COLLECTTYPE
+{
+	HANDGUN,
+	MACHINEGUN,
+	CAR
+}

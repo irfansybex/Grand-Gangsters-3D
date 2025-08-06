@@ -1,0 +1,1361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1826141842388300}
+  m_IsPrefabParent: 1
+--- !u!1 &1826141842388300
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4662108618813071}
+  - component: {fileID: 114906635910984543}
+  m_Layer: 0
+  m_Name: RobMotor2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4662108618813071
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1826141842388300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4569518277266082}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114906635910984543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1826141842388300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eed572dcc1e3bc4fbec622abb3be8c3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  playerDefaultPos: {x: -150, y: 0, z: 416}
+  playerDefaultAngle: {x: 0, y: -120, z: 0}
+  motorPos: {x: -248, y: 0, z: 370}
+  motorAngle: {x: 0, y: 0, z: 0}
+  targetPos: {x: 280, y: 0, z: -252}
+  startPointList:
+  - {fileID: 114972840674599164}
+  - {fileID: 114386439954155017}
+  - {fileID: 114874732560727224}
+  - {fileID: 114374144546226386}
+  - {fileID: 114550340955353607}
+  - {fileID: 114412817862171210}
+  - {fileID: 114784050677021871}
+  npcGroupList:
+  - waveInfoList:
+    - waveAIList:
+      - typeIndex: 1
+        level: 2
+        standFlag: 0
+      delayTime: 0
+  - waveInfoList:
+    - waveAIList:
+      - typeIndex: 2
+        level: 2
+        standFlag: 0
+      delayTime: 0
+  - waveInfoList:
+    - waveAIList:
+      - typeIndex: 1
+        level: 2
+        standFlag: 0
+      delayTime: 0
+  - waveInfoList:
+    - waveAIList:
+      - typeIndex: 4
+        level: 2
+        standFlag: 0
+      delayTime: 0
+  - waveInfoList:
+    - waveAIList:
+      - typeIndex: 3
+        level: 2
+        standFlag: 0
+      delayTime: 0
+  - waveInfoList:
+    - waveAIList:
+      - typeIndex: 5
+        level: 2
+        standFlag: 0
+      delayTime: 0
+  - waveInfoList:
+    - waveAIList:
+      - typeIndex: 5
+        level: 2
+        standFlag: 0
+      delayTime: 0
+--- !u!1 &1735723896326704
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4569518277266082}
+  m_Layer: 0
+  m_Name: Way
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4569518277266082
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1735723896326704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4417164699651649}
+  - {fileID: 4139649007648331}
+  - {fileID: 4510453863233034}
+  - {fileID: 4566926366169586}
+  - {fileID: 4691195620864480}
+  - {fileID: 4042077901762379}
+  - {fileID: 4169949485197958}
+  m_Father: {fileID: 4662108618813071}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1704589951463572
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4417164699651649}
+  m_Layer: 0
+  m_Name: Way0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4417164699651649
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1704589951463572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -314.32498, y: 0, z: -633.39075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4635906510026696}
+  - {fileID: 4801347598790401}
+  - {fileID: 4451879990307675}
+  m_Father: {fileID: 4569518277266082}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1313328636166256
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4635906510026696}
+  - component: {fileID: 114972840674599164}
+  m_Layer: 0
+  m_Name: WayPoint0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4635906510026696
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1313328636166256}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 98.3994, y: 0, z: 1025.8296}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4417164699651649}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &114972840674599164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1313328636166256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114373574740460650}
+  roadDistance: []
+--- !u!1 &1443565806732973
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4801347598790401}
+  - component: {fileID: 114373574740460650}
+  m_Layer: 0
+  m_Name: WayPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4801347598790401
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1443565806732973}
+  m_LocalRotation: {x: 0, y: 0.7552818, z: 0, w: 0.65540016}
+  m_LocalPosition: {x: 67.93251, y: 0, z: 1025.9988}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4417164699651649}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: -81.9, z: -180}
+--- !u!114 &114373574740460650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1443565806732973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114896847294084188}
+  roadDistance: []
+--- !u!1 &1111339413906220
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4451879990307675}
+  - component: {fileID: 114896847294084188}
+  m_Layer: 0
+  m_Name: WayPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4451879990307675
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1111339413906220}
+  m_LocalRotation: {x: 0, y: 0.6380962, z: 0, w: 0.76995665}
+  m_LocalPosition: {x: 82.504745, y: 0, z: 1023.6686}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4417164699651649}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -79.30001, z: -0}
+--- !u!114 &114896847294084188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1111339413906220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114972840674599164}
+  roadDistance: []
+--- !u!1 &1958847236955825
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4139649007648331}
+  m_Layer: 0
+  m_Name: Way6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4139649007648331
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1958847236955825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -314.32498, y: 0, z: -633.39075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4850571532873855}
+  - {fileID: 4774239482209153}
+  - {fileID: 4719625508303021}
+  m_Father: {fileID: 4569518277266082}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1731878249332622
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4850571532873855}
+  - component: {fileID: 114784050677021871}
+  m_Layer: 0
+  m_Name: WayPoint0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4850571532873855
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1731878249332622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 125.4527, y: 0, z: 1001.4436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4139649007648331}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114784050677021871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1731878249332622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114719931312360722}
+  roadDistance: []
+--- !u!1 &1491039019948927
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4774239482209153}
+  - component: {fileID: 114719931312360722}
+  m_Layer: 0
+  m_Name: WayPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4774239482209153
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1491039019948927}
+  m_LocalRotation: {x: 0, y: 0.99888986, z: 0, w: -0.047106393}
+  m_LocalPosition: {x: 124.56804, y: 0, z: 1019.40674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4139649007648331}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: 5.3999934, z: 180}
+--- !u!114 &114719931312360722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1491039019948927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114063515922815054}
+  roadDistance: []
+--- !u!1 &1660552423221564
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4719625508303021}
+  - component: {fileID: 114063515922815054}
+  m_Layer: 0
+  m_Name: WayPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4719625508303021
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1660552423221564}
+  m_LocalRotation: {x: 0, y: 0.9963453, z: 0, w: 0.085416965}
+  m_LocalPosition: {x: 123.339005, y: 0, z: 1005.7081}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4139649007648331}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: -9.800005, z: -180}
+--- !u!114 &114063515922815054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1660552423221564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114784050677021871}
+  roadDistance: []
+--- !u!1 &1335853684597234
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4510453863233034}
+  m_Layer: 0
+  m_Name: Way5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4510453863233034
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1335853684597234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -314.32498, y: 0, z: -633.39075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4205789705936042}
+  - {fileID: 4451353549902522}
+  - {fileID: 4633275870092493}
+  m_Father: {fileID: 4569518277266082}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1388838196831640
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4205789705936042}
+  - component: {fileID: 114412817862171210}
+  m_Layer: 0
+  m_Name: WayPoint0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4205789705936042
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1388838196831640}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 98.3994, y: 0, z: 1049.2175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4510453863233034}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &114412817862171210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1388838196831640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114441781326490548}
+  roadDistance: []
+--- !u!1 &1366722437240048
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4451353549902522}
+  - component: {fileID: 114441781326490548}
+  m_Layer: 0
+  m_Name: WayPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4451353549902522
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1366722437240048}
+  m_LocalRotation: {x: 0, y: 0.7552818, z: 0, w: 0.65540016}
+  m_LocalPosition: {x: 67.93251, y: 0, z: 1049.3867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4510453863233034}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: -81.9, z: -180}
+--- !u!114 &114441781326490548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1366722437240048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114022093452265105}
+  roadDistance: []
+--- !u!1 &1292560041819011
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4633275870092493}
+  - component: {fileID: 114022093452265105}
+  m_Layer: 0
+  m_Name: WayPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4633275870092493
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1292560041819011}
+  m_LocalRotation: {x: 0, y: 0.6380962, z: 0, w: 0.76995665}
+  m_LocalPosition: {x: 82.504745, y: 0, z: 1047.0566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4510453863233034}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -79.30001, z: -0}
+--- !u!114 &114022093452265105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1292560041819011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114412817862171210}
+  roadDistance: []
+--- !u!1 &1025493333624095
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4566926366169586}
+  m_Layer: 0
+  m_Name: Way1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4566926366169586
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1025493333624095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -314.32498, y: 0, z: -633.39075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4042867409957356}
+  - {fileID: 4484276550220161}
+  - {fileID: 4647885440244401}
+  m_Father: {fileID: 4569518277266082}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1668217187692919
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4042867409957356}
+  - component: {fileID: 114386439954155017}
+  m_Layer: 0
+  m_Name: WayPoint0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042867409957356
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1668217187692919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.408936, y: 0, z: 1001.4436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4566926366169586}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114386439954155017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1668217187692919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114537520573513381}
+  roadDistance: []
+--- !u!1 &1621174608625069
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4484276550220161}
+  - component: {fileID: 114537520573513381}
+  m_Layer: 0
+  m_Name: WayPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4484276550220161
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1621174608625069}
+  m_LocalRotation: {x: 0, y: 0.99888986, z: 0, w: -0.047106393}
+  m_LocalPosition: {x: 101.52428, y: 0, z: 1019.40674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4566926366169586}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: 5.3999934, z: 180}
+--- !u!114 &114537520573513381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1621174608625069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114199446355272925}
+  roadDistance: []
+--- !u!1 &1638164430841750
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4647885440244401}
+  - component: {fileID: 114199446355272925}
+  m_Layer: 0
+  m_Name: WayPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4647885440244401
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1638164430841750}
+  m_LocalRotation: {x: 0, y: 0.9963453, z: 0, w: 0.085416965}
+  m_LocalPosition: {x: 100.29524, y: 0, z: 1005.7081}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4566926366169586}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: -9.800005, z: -180}
+--- !u!114 &114199446355272925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1638164430841750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114386439954155017}
+  roadDistance: []
+--- !u!1 &1280300315109862
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4691195620864480}
+  m_Layer: 0
+  m_Name: Way4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4691195620864480
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1280300315109862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -314.32498, y: 0, z: -633.39075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4083623323674342}
+  - {fileID: 4468084197394695}
+  - {fileID: 4704953282388077}
+  m_Father: {fileID: 4569518277266082}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1711745825958079
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4083623323674342}
+  - component: {fileID: 114550340955353607}
+  m_Layer: 0
+  m_Name: WayPoint0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4083623323674342
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1711745825958079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.408936, y: 0, z: 1049.6572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4691195620864480}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114550340955353607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1711745825958079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114282906887382713}
+  roadDistance: []
+--- !u!1 &1971474388664535
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4468084197394695}
+  - component: {fileID: 114282906887382713}
+  m_Layer: 0
+  m_Name: WayPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4468084197394695
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1971474388664535}
+  m_LocalRotation: {x: 0, y: 0.99888986, z: 0, w: -0.047106393}
+  m_LocalPosition: {x: 101.52428, y: 0, z: 1067.6204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4691195620864480}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: 5.3999934, z: 180}
+--- !u!114 &114282906887382713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1971474388664535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114090677702061274}
+  roadDistance: []
+--- !u!1 &1814768883440799
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4704953282388077}
+  - component: {fileID: 114090677702061274}
+  m_Layer: 0
+  m_Name: WayPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4704953282388077
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1814768883440799}
+  m_LocalRotation: {x: 0, y: 0.9963453, z: 0, w: 0.085416965}
+  m_LocalPosition: {x: 100.29524, y: 0, z: 1053.9219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4691195620864480}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: -9.800005, z: -180}
+--- !u!114 &114090677702061274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1814768883440799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114550340955353607}
+  roadDistance: []
+--- !u!1 &1442766766534414
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4042077901762379}
+  m_Layer: 0
+  m_Name: Way2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042077901762379
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1442766766534414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -314.32498, y: 0, z: -633.39075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4216455100047995}
+  - {fileID: 4459040097097883}
+  - {fileID: 4265282768451907}
+  - {fileID: 4223720411086411}
+  m_Father: {fileID: 4569518277266082}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1458031866168420
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4216455100047995}
+  - component: {fileID: 114874732560727224}
+  m_Layer: 0
+  m_Name: WayPoint0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4216455100047995
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1458031866168420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 94.41017, y: 0, z: 1003.1839}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4042077901762379}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114874732560727224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1458031866168420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114521941515855419}
+  roadDistance: []
+--- !u!1 &1400331607603218
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4459040097097883}
+  - component: {fileID: 114521941515855419}
+  m_Layer: 0
+  m_Name: WayPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4459040097097883
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1400331607603218}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 93.220825, y: 0, z: 1015.8905}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4042077901762379}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &114521941515855419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1400331607603218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114692182336135644}
+  roadDistance: []
+--- !u!1 &1800851003225299
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4265282768451907}
+  - component: {fileID: 114692182336135644}
+  m_Layer: 0
+  m_Name: WayPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4265282768451907
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1800851003225299}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.371139E-08}
+  m_LocalPosition: {x: 76.37474, y: 0, z: 1014.9394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4042077901762379}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 5.008956E-06, z: 180}
+--- !u!114 &114692182336135644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1800851003225299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114065270990549249}
+  roadDistance: []
+--- !u!1 &1618020168619514
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4223720411086411}
+  - component: {fileID: 114065270990549249}
+  m_Layer: 0
+  m_Name: WayPoint3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4223720411086411
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1618020168619514}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 76.37474, y: 0, z: 1002.59045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4042077901762379}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0, y: -90, z: 0}
+--- !u!114 &114065270990549249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1618020168619514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114874732560727224}
+  roadDistance: []
+--- !u!1 &1918702749104743
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4169949485197958}
+  m_Layer: 0
+  m_Name: Way3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4169949485197958
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1918702749104743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -314.32498, y: 0, z: -633.39075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4979881410943415}
+  - {fileID: 4064858774454954}
+  - {fileID: 4475514365695884}
+  - {fileID: 4038697200628441}
+  m_Father: {fileID: 4569518277266082}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1925869121865158
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4979881410943415}
+  - component: {fileID: 114374144546226386}
+  m_Layer: 0
+  m_Name: WayPoint0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4979881410943415
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1925869121865158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.82782, y: 0, z: 1003.1839}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4169949485197958}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114374144546226386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1925869121865158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114219328910047929}
+  roadDistance: []
+--- !u!1 &1175224534534617
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4064858774454954}
+  - component: {fileID: 114219328910047929}
+  m_Layer: 0
+  m_Name: WayPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4064858774454954
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1175224534534617}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 58.638474, y: 0, z: 1015.8905}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4169949485197958}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &114219328910047929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1175224534534617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114050101452718013}
+  roadDistance: []
+--- !u!1 &1531147386689754
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4475514365695884}
+  - component: {fileID: 114050101452718013}
+  m_Layer: 0
+  m_Name: WayPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475514365695884
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1531147386689754}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.371139E-08}
+  m_LocalPosition: {x: 41.79239, y: 0, z: 1014.9394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4169949485197958}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 5.008956E-06, z: 180}
+--- !u!114 &114050101452718013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1531147386689754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114438110543611741}
+  roadDistance: []
+--- !u!1 &1596192423538924
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4038697200628441}
+  - component: {fileID: 114438110543611741}
+  m_Layer: 0
+  m_Name: WayPoint3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4038697200628441
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1596192423538924}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 41.79239, y: 0, z: 1002.59045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4169949485197958}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0, y: -90, z: 0}
+--- !u!114 &114438110543611741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1596192423538924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c849b9bc4ef5d94c9c9ef0f89c1525f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stop: 0
+  CrossPoint: 0
+  dummyCrossPoint: 0
+  Drive_State: 0
+  lightpointsystem:
+    CrossPoint: []
+    dummyCrossPoint: []
+  roadInfo: {fileID: 0}
+  linkPoint:
+  - {fileID: 114374144546226386}
+  roadDistance: []

@@ -1,0 +1,10 @@
+public enum SLOTTYPE
+{
+	SEVEN,
+	CHERRY,
+	BELL,
+	BAR,
+	APPLE,
+	LEMON,
+	COUNT
+}

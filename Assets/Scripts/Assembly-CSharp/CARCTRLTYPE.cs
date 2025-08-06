@@ -1,0 +1,5 @@
+public enum CARCTRLTYPE
+{
+	GRAVITY,
+	BUTTON
+}

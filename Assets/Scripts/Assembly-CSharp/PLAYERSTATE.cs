@@ -1,0 +1,10 @@
+public enum PLAYERSTATE
+{
+	NORMAL,
+	HANDGUN,
+	MACHINEGUN,
+	CAR,
+	FIGHT,
+	DIE,
+	RAGDOLL
+}

@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_Name: StoreMenuEnter
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1600, y: 0, z: 0}
+        inSlope: {x: -1600, y: 0, z: 0}
+        outSlope: {x: -1600, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: -13.220634, y: 0, z: 0}
+        outSlope: {x: -13.220634, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -24.016602, y: -0.0053482056, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: -24.016602, y: -0.0053482056, z: 0}
+        inSlope: {x: -1.173753E-05, y: 0, z: 0}
+        outSlope: {x: -1.173753E-05, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.68333334
+        value: {x: -24.016617, y: -0.0053482056, z: 0}
+        inSlope: {x: -2.347506E-05, y: 0, z: 0}
+        outSlope: {x: -2.347506E-05, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: StorePage/HandGunPage/AttributeLine2/Pic
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -24.01538, y: -0.0076675415, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: -24.01538, y: -0.0076675415, z: 0}
+        inSlope: {x: 3.521259E-05, y: 0, z: 0}
+        outSlope: {x: 3.521259E-05, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.68333334
+        value: {x: -24.015335, y: -0.0076675415, z: 0}
+        inSlope: {x: 7.042518E-05, y: 0, z: 0}
+        outSlope: {x: 7.042518E-05, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: StorePage/HandGunPage/AttributeLine3/Pic
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -24.016602, y: -0.0053482056, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: -24.016602, y: -0.0053482056, z: 0}
+        inSlope: {x: -1.173753E-05, y: 0, z: 0}
+        outSlope: {x: -1.173753E-05, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.68333334
+        value: {x: -24.016617, y: -0.0053482056, z: 0}
+        inSlope: {x: -2.347506E-05, y: 0, z: 0}
+        outSlope: {x: -2.347506E-05, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: StorePage/MachineGunPage/AttributeLine2/Pic
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -24.01538, y: -0.0076675415, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: -24.01538, y: -0.0076675415, z: 0}
+        inSlope: {x: 3.521259E-05, y: 0, z: 0}
+        outSlope: {x: 3.521259E-05, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.68333334
+        value: {x: -24.015335, y: -0.0076675415, z: 0}
+        inSlope: {x: 7.042518E-05, y: 0, z: 0}
+        outSlope: {x: 7.042518E-05, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: StorePage/MachineGunPage/AttributeLine3/Pic
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -24.017822, y: -0.003036499, z: 0}
+        inSlope: {x: -0.0036621091, y: 0, z: 0}
+        outSlope: {x: -0.0036621091, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: -24.017944, y: -0.003036499, z: 0}
+        inSlope: {x: -0.0017841045, y: 0, z: 0}
+        outSlope: {x: -0.0017841045, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.68333334
+        value: {x: -24.017883, y: -0.003036499, z: 0}
+        inSlope: {x: 9.390024E-05, y: 0, z: 0}
+        outSlope: {x: 9.390024E-05, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: StorePage/HandGunPage/AttributeLine1/Pic
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -24.017822, y: -0.003036499, z: 0}
+        inSlope: {x: -0.0036621091, y: 0, z: 0}
+        outSlope: {x: -0.0036621091, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: -24.017944, y: -0.003036499, z: 0}
+        inSlope: {x: -0.0017841045, y: 0, z: 0}
+        outSlope: {x: -0.0017841045, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.68333334
+        value: {x: -24.017883, y: -0.003036499, z: 0}
+        inSlope: {x: 9.390024E-05, y: 0, z: 0}
+        outSlope: {x: 9.390024E-05, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: StorePage/MachineGunPage/AttributeLine1/Pic
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 352.02795, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: StorePage/PackPage/RightButton
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

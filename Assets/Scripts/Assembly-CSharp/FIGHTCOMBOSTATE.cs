@@ -1,0 +1,8 @@
+public enum FIGHTCOMBOSTATE
+{
+	FIGHT0,
+	FIGHT1,
+	FIGHT2,
+	FIGHT3,
+	NONE
+}
