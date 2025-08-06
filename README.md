@@ -21,3 +21,4 @@
 - **C#**
 - **Photon Fusion 2** (if multiplayer is integrated)
 - **Blender / Mixamo** for models & animations (optional)
+<img width="320" height="156" alt="image" src="https://github.com/user-attachments/assets/ec67197a-1230-408f-b0b1-7643738fc3d2" />
